@@ -1,0 +1,62 @@
+html {
+  background-color: rgb(140, 43, 43);
+ 
+}
+
+body {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgb(210, 214, 143);
+  padding: 5%;
+}
+
+
+ #titulo {
+  width: 80%; 
+  font-size:large;
+  background-image: url("https://cdn.pixabay.com/photo/2017/01/16/19/40/mountains-1985027_960_720.jpg");
+  background-repeat: no-repeat;
+  text-align: center; 
+  position: relative; 
+  left: 10%; 
+   right: 10%; 
+  padding-block: 7%; 
+  }
+  
+  #titulo > h1 {
+    text-size-adjust: 5;
+
+  }
+  
+#navegador {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(57, 152, 150);
+  border-radius: 2em;
+  margin: 5%;
+}
+
+#navegador ul {
+  list-style-type: none;
+  margin: 0.5%;
+  padding: 0.5%;
+  display: flex;
+}
+
+#navegador li {
+  margin: 5%;
+}
+
+.navLinks {
+  color: black;
+  font-size: 200%;
+  display: block;
+
+  font-style: initial;
+}
+
+.navLinks:hover {
+  background-color: rgb(89, 150, 179);
+  color: white;
+}
+/*fin navegador*/

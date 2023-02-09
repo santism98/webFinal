@@ -1,0 +1,48 @@
+
+
+.tablaConsejos {
+    width: 40%; /* Ancho de la tabla al 50% de la pantalla */
+    margin-right: 50%; /* Centrar la tabla en la pantalla */
+    float: right; /* Alinear la tabla a la derecha */
+    border-collapse: collapse;
+    padding: 5%;
+  
+
+   
+  }
+  
+  /* Formato de las celdas de la tabla */
+  .tablaConsejos th, .tablaConsejos td {
+    border: 1px solid black;
+    padding: 8px;
+  }
+  
+  /* Formato del encabezado de la tabla */
+  .tablaConsejos thead th {
+    background-color: lightgray;
+    font-weight: bold;
+  }
+  .tablaConsejos th:first-child {
+    background-color: blue;
+    color: white;
+}
+.tablaConsejos tr:first-child {
+    background-color: blue;
+    color: white;
+}
+
+.textoConsejos {
+  width: 40%; 
+  font-size:italic;
+  text-align: justify;
+  position: relative;
+  left: 5%;
+  right: 40%;
+  size: relative;
+  
+
+}
+
+.textoConsejos h3:first-child {
+  text-decoration: underline;
+}

@@ -1,0 +1,30 @@
+article {
+    text-align: left;
+    width: 50%;
+}
+
+header hgroup {
+    text-align: center;
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+li::before {
+    content: "•";
+    color: #2ecc71;
+    font-size: 20px;
+    margin-right: 10px;
+}

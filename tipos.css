@@ -1,0 +1,49 @@
+
+
+h2 {
+    width: 70%; 
+    font-size:italic;
+    background-color:rgb(149, 224, 149);
+    color:#000;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    right: 15%;
+    padding-block: 10px;
+      
+  }
+
+.tiposMont {
+    width: 45%; 
+    font-size:italic;
+    text-align: justify;
+    /*position: relative;*/
+    margin-left: 15%;
+    /*margin-right: 60%;*/
+    padding-block: 5%;
+   /* size: relative;*/
+    }
+.barraLateral {
+    width: 15%; 
+    font-size:italic;
+    text-align: justify;
+    position: relative;
+    left: 70%;
+    right: 15%;
+    padding-block: 10px;
+}
+.elTiempo {
+    float:left; 
+    width:200px;
+}
+.title {
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 20px;
+  }
+  .videoVolcan {
+   width: 45%;
+   height: 10%; 
+   
+}
